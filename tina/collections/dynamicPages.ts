@@ -1,5 +1,5 @@
 ﻿import {Collection} from "tinacms";
-import hero from "../components/hero";
+
 import panel from "../components/panel";
 import pageNav from "../components/pageNav";
 
@@ -27,7 +27,7 @@ const dynamicPages: Collection =  {
             label: "Body",
             isBody: true,
             type: "rich-text",
-            templates: [panel,hero,pageNav]
+            templates: [panel,pageNav]
         }
     ]
 }
